@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table booking</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Gofood
+            <span>restaurant</span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="table-booking.html">Table Booking</a>
+        </nav>
+        <div class="social-media">
+            <a href="#"><img src="./img/icon/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="./img/icon/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="./img/icon/telegram.svg" alt="Telegram"></a>
+        </div>
+    </header>
+    <main>
+        <section class="booking-section">
+            <h1>Table Booking</h1>
+            <form>
+                <div class="form-item">
+                    <h2>Your Information</h2>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+                </div>
+        
+                <div class="form-item">
+                    <h2>Notes</h2>
+                    <textarea id="notes" name="notes" placeholder="Type here"></textarea>
+                </div>
+        
+                <div class="form-item">
+                    <h2>Details</h2>
+                    <div class="form-group">
+                        <label for="location">
+                            <img src="./img/icon/location.svg" alt="Location">
+                        </label>
+                        <select id="location" name="location" required>
+                            <option value="" disabled selected>Select a location</option>
+                            <option value="downtown">Downtown</option>
+                            <option value="uptown">Uptown</option>
+                            <option value="suburbs">Suburbs</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">
+                            <img src="./img/icon/date.svg" alt="Date">
+                        </label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time-start">
+                            <img src="./img/icon/time-start.svg" alt="Time start">
+                        </label>
+                        <input type="time" id="time-start" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time-end">
+                            <img src="./img/icon/time-end.svg" alt="Time end">
+                        </label>
+                        <input type="time" id="time-end" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="persons">
+                            <img src="./img/icon/person.svg" alt="Person">
+                        </label>
+                        <select id="persons" name="persons" required>
+                            <option value="" disabled selected>Select number of persons</option>
+                            <option value="2">2 persons</option>
+                            <option value="3">3 persons</option>
+                            <option value="4">4 persons</option>
+                            <option value="5">5 persons</option>
+                            <option value="6">6 persons</option>
+                            <option value="7">7 persons</option>
+                            <option value="8">8 persons</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn-reserve">RESERVE</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2 class="footer-logo">
+            Gofood <span>restaurant</span>
+        </h2>
+        <div class="footer-info">
+            <div class="opening-hours">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 8:00 am to 9:00 pm</p>
+                <p>Saturday: 8:00 am to 9:00 pm</p>
+            </div>
+            <div class="navigation">
+                <h3>Navigation</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="table-booking.html">Table Booking</a></p>
+            </div>
+            <div class="dishes">
+                <h3>Dishes</h3>
+                <p><a href="#">Burgers</a></p>
+                <p><a href="#">Drinks</a></p>
+                <p><a href="#">Taco</a></p>
+                <p><a href="#">Burrito</a></p>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                <p>2101 N Hardin Blvd, McKinney, NX 75071</p>
+                <h3>Phone</h3>
+                <p>+389096336587</p>
+                <h3>Email</h3>
+                <p>gofood@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Restaurants. All Right Reserved. Designed by Gofood</p>
+            <div class="terms">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>        
+</body>
+</html>

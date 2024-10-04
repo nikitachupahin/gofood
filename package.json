@@ -1,0 +1,14 @@
+{
+  "name": "gofood-restaurant",
+  "version": "1.0.0",
+  "description": "Gofood restaurant website using HTML, CSS, JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mykyta Chupahin",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
