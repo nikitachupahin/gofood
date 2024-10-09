@@ -314,7 +314,7 @@ footer {
 }
 
 .footer-content {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     height: 100%;
     width: 100%;
 }
@@ -383,4 +383,106 @@ footer {
 .terms a {
     text-decoration: none;
     color: #FFF;
+}
+.booking-section {
+    margin: 0 5rem;
+}
+
+.gofood-header, .gofood-header a {
+    background-color: #EF2A39;
+    color: #fff;
+}
+
+.booking-section h1 {
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 3.125rem;
+    padding-bottom: 6.25rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0;
+    gap: 8.75rem;
+    margin: 0 10rem;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    max-width: 25rem;
+}
+
+.form-item h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 0.9375rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 95%;
+    padding: 0.796875rem;
+    border: 1px solid #ccc; 
+    border-radius: 0.3125rem; 
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-select {
+    text-align: left;
+}
+
+.form-select select {
+    width: 102%;
+}
+
+textarea {
+    height: 9.375rem;
+    resize: none;
+}
+
+.form-input {
+    background-position: 23.125rem 0.625rem;
+    background-repeat: no-repeat;
+    padding-left: 0.9375rem;
+}
+
+select, input {
+    appearance: none;
+}
+
+.location {
+    background-image: url('./img/icon/location.svg');
+}
+
+.persons {
+    background-image: url('./img/icon/person.svg');
+}
+
+.btn-reserve {
+    margin-top: auto;
+    padding: 1.25rem 3.75rem;
+    background-color: #3C2F2F;
+    color: white;
+    border: none;
+    border-radius: 1.25rem; 
+    font-size: 1.25rem;
+    cursor: pointer;
 }

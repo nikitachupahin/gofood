@@ -7,7 +7,7 @@
     <title>Table booking</title>
 </head>
 <body>
-    <header>
+    <header class="gofood-header">
         <div class="logo">
             Gofood
             <span>restaurant</span>
@@ -18,81 +18,69 @@
             <a href="table-booking.html">Table Booking</a>
         </nav>
         <div class="social-media">
-            <a href="#"><img src="./img/icon/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="./img/icon/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="./img/icon/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="./img/icon/instagram-w.svg" alt="Instagram"></a>
+            <a href="#"><img src="./img/icon/facebook-w.svg" alt="Facebook"></a>
+            <a href="#"><img src="./img/icon/telegram-w.svg" alt="Telegram"></a>
         </div>
     </header>
     <main>
         <section class="booking-section">
             <h1>Table Booking</h1>
             <form>
-                <div class="form-item">
-                    <h2>Your Information</h2>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Full name" required>
+                <div class="form-column">
+                    <div class="form-item">
+                        <h2>Your Information</h2>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="E-mail" required>
-                    </div>
-                </div>
-        
-                <div class="form-item">
-                    <h2>Notes</h2>
-                    <textarea id="notes" name="notes" placeholder="Type here"></textarea>
-                </div>
-        
-                <div class="form-item">
-                    <h2>Details</h2>
-                    <div class="form-group">
-                        <label for="location">
-                            <img src="./img/icon/location.svg" alt="Location">
-                        </label>
-                        <select id="location" name="location" required>
-                            <option value="" disabled selected>Select a location</option>
-                            <option value="downtown">Downtown</option>
-                            <option value="uptown">Uptown</option>
-                            <option value="suburbs">Suburbs</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="date">
-                            <img src="./img/icon/date.svg" alt="Date">
-                        </label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="time-start">
-                            <img src="./img/icon/time-start.svg" alt="Time start">
-                        </label>
-                        <input type="time" id="time-start" name="time" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="time-end">
-                            <img src="./img/icon/time-end.svg" alt="Time end">
-                        </label>
-                        <input type="time" id="time-end" name="time" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="persons">
-                            <img src="./img/icon/person.svg" alt="Person">
-                        </label>
-                        <select id="persons" name="persons" required>
-                            <option value="" disabled selected>Select number of persons</option>
-                            <option value="2">2 persons</option>
-                            <option value="3">3 persons</option>
-                            <option value="4">4 persons</option>
-                            <option value="5">5 persons</option>
-                            <option value="6">6 persons</option>
-                            <option value="7">7 persons</option>
-                            <option value="8">8 persons</option>
-                        </select>
+            
+                    <div class="form-item">
+                        <h2>Notes</h2>
+                        <textarea id="notes" name="notes" placeholder="Type here"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn-reserve">RESERVE</button>
+                <div class="form-column">
+                    <div class="form-item">
+                        <h2>Details</h2>
+                        <div class="form-group form-select">
+                            <select class="form-input location" id="location" name="location" required>
+                                <option value="" disabled selected>Select a location</option>
+                                <option value="downtown">Downtown</option>
+                                <option value="uptown">Uptown</option>
+                                <option value="suburbs">Suburbs</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="time-start" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="time-end" name="time" required>
+                        </div>
+                        <div class="form-group form-select">
+                            <select class="form-input persons" id="persons" name="persons" required>
+                                <option value="" disabled selected>Select number of persons</option>
+                                <option value="2">2 persons</option>
+                                <option value="3">3 persons</option>
+                                <option value="4">4 persons</option>
+                                <option value="5">5 persons</option>
+                                <option value="6">6 persons</option>
+                                <option value="7">7 persons</option>
+                                <option value="8">8 persons</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-reserve">RESERVE</button>
+                </div>
             </form>
         </section>
     </main>
