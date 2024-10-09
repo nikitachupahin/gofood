@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>Home</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
                 <p>Your Culinary Adventure Awaits!</p>
                 <div class="welcome-buttons">
                     <a href="#" class="btn-primary">Let's go</a>
-                    <a href="#" class="btn-secondary">Booking a table</a>
+                    <a href="./table-booking.html" class="btn-secondary">Booking a table</a>
                 </div>
             </div>
             <div class="burger-image">
@@ -38,13 +39,15 @@
         </section>
     
         <section class="about-section">
-            <h2>Gofood <span>restaurant</span></h2>
-            <div class="about-text">
-                <h3>Located in the heart of the city, <span class="highlight">Gofood</span> offers a unique blend of traditional and contemporary flavors.</h3>
-                <a href="#" class="btn-primary">Explore our menu</a>
+            <div class="about-content">
+                <h2 class="about-title">Gofood <span class="subtitle">restaurant</span></h2>
+            <p class="about-description">
+                Located in the heart of the city, <span class="highlight">Gofood</span> offers a unique blend of traditional and contemporary flavors.
+            </p>
+            <a href="./menu.html" class="btn">Explore our menu</a>
             </div>
         </section>
-        
+
         <section class="popular-dishes-section">
             <h2>POPULAR DISHES</h2>
             <p>Your Culinary Adventure Awaits!</p>
@@ -53,29 +56,37 @@
                     <img src="./img/cheeseburger.png" alt="Cheeseburger">
                     <h3>Cheeseburger</h3>
                     <p>Wendy's Burger</p>
-                    <span class="price">$8.24</span>
-                    <span class="rating">4.9</span>
+                    <div class="dish-info">
+                        <span class="price">$8.24</span>
+                        <span class="rating">4.9</span>
+                    </div>
                 </div>
                 <div class="dish-item">
                     <img src="./img/hamburger-veggie.png" alt="Hamburger">
                     <h3>Hamburger</h3>
                     <p>Veggie Burger</p>
-                    <span class="price">$9.99</span>
-                    <span class="rating">4.8</span>
+                    <div class="dish-info">
+                        <span class="price">$9.99</span>
+                        <span class="rating">4.8</span>
+                    </div>
                 </div>
                 <div class="dish-item">
                     <img src="./img/hamburger-chicken.png" alt="Hamburger">
                     <h3>Hamburger</h3>
                     <p>Chicken Burger</p>
-                    <span class="price">$12.48</span>
-                    <span class="rating">4.6</span>
+                    <div class="dish-info">
+                        <span class="price">$12.48</span>
+                        <span class="rating">4.6</span>
+                    </div>
                 </div>
                 <div class="dish-item">
-                    <img src="./img/hamburger-fried.png" alt="Hamburger">
+                    <img class="hamb" src="./img/hamburger-fried.png" alt="Hamburger">
                     <h3>Hamburger</h3>
                     <p>Fried Chicken Burger</p>
-                    <span class="price">$15.80</span>
-                    <span class="rating">4.7</span>
+                    <div class="dish-info">
+                        <span class="price">$15.80</span>
+                        <span class="rating">4.7</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -88,10 +99,16 @@
                 <h3>Ama Ampomah</h3>
                 <p>Amazing food and fantastic service! Will come back again.</p>
                 <div class="rating">
-                    <span>★★★★★</span>
+                    <img src="./img/icon/star.svg" alt="Star">
+                    <img src="./img/icon/star.svg" alt="Star">
+                    <img src="./img/icon/star.svg" alt="Star">
+                    <img src="./img/icon/star.svg" alt="Star">
+                    <img src="./img/icon/star.svg" alt="Star">
                 </div>
             </div>
             <div class="reviews-navigation">
+                <span class="dot active"></span>
+                <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
@@ -99,50 +116,56 @@
         </section>
     </main>
     <footer>
-        <h2 class="footer-logo">
-            Gofood <span>restaurant</span>
-        </h2>
-        <div class="footer-info">
-            <div class="opening-hours">
-                <h3>Opening Hours</h3>
-                <p>Monday - Friday: 8:00 am to 9:00 pm</p>
-                <p>Saturday: 8:00 am to 9:00 pm</p>
+        <div class="footer-content">
+            <div class="footer-title">
+                <h2 class="footer-logo">
+                    Gofood <span class="subtitle">restaurant</span>
+                </h2>
             </div>
-            <div class="navigation">
-                <h3>Navigation</h3>
-                <p><a href="index.html">Home</a></p>
-                <p><a href="menu.html">Menu</a></p>
-                <p><a href="table-booking.html">Table Booking</a></p>
+            <div class="footer-info">
+                <div class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday:</p>
+                    <p>8:00 am to 9:00 pm</p>
+                    <p>Saturday:</p>
+                    <p>8:00 am to 9:00 pm</p>
+                </div>
+                <div class="navigation">
+                    <h3>Navigation</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="menu.html">Menu</a></p>
+                    <p><a href="table-booking.html">Table Booking</a></p>
+                </div>
+                <div class="dishes">
+                    <h3>Dishes</h3>
+                    <p><a href="#">Burgers</a></p>
+                    <p><a href="#">Drinks</a></p>
+                    <p><a href="#">Taco</a></p>
+                    <p><a href="#">Burrito</a></p>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                    <p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=2101+N+Hardin+Blvd,+McKinney,+NX+75071" target="_blank">
+                            2101 N Hardin Blvd, McKinney, NX 75071
+                        </a>
+                    </p>
+                    <h3>Phone</h3>
+                    <p>
+                        <a href="tel:+389096336587">+389096336587</a>
+                    </p>
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:gofood@gmail.com">gofood@gmail.com</a>
+                    </p>
+                </div>
             </div>
-            <div class="dishes">
-                <h3>Dishes</h3>
-                <p><a href="#">Burgers</a></p>
-                <p><a href="#">Drinks</a></p>
-                <p><a href="#">Taco</a></p>
-                <p><a href="#">Burrito</a></p>
-            </div>
-            <div class="address">
-                <h3>Address</h3>
-                <p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=2101+N+Hardin+Blvd,+McKinney,+NX+75071" target="_blank">
-                        2101 N Hardin Blvd, McKinney, NX 75071
-                    </a>
-                </p>
-                <h3>Phone</h3>
-                <p>
-                    <a href="tel:+389096336587">+389096336587</a>
-                </p>
-                <h3>Email</h3>
-                <p>
-                    <a href="mailto:gofood@gmail.com">gofood@gmail.com</a>
-                </p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Restaurants. All Right Reserved. Designed by Gofood</p>
-            <div class="terms">
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Restaurants. All Right Reserved. Designed by Gofood</p>
+                <div class="terms">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
             </div>
         </div>
     </footer>    
