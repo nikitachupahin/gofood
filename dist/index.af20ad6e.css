@@ -36,7 +36,7 @@ nav {
 
 nav a {
   color: #ef2a39;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -204,6 +204,11 @@ section p {
   text-align: left;
   margin: .625rem 0;
   font-size: 1.75rem;
+}
+
+.dish-item h3 a {
+  color: #3c2f2f;
+  text-decoration: none;
 }
 
 .dish-item img {
@@ -471,11 +476,109 @@ select, input {
 .btn-reserve {
   color: #fff;
   cursor: pointer;
-  background-color: #3c2f2f;
+  background-color: #000;
   border: none;
   border-radius: 1.25rem;
   margin-top: auto;
   padding: 1.25rem 3.75rem;
   font-size: 1.25rem;
+}
+
+.search-filter .filter-input {
+  background-position: 1.25rem 1.25rem;
+  background-repeat: no-repeat;
+  border-radius: 1.25rem;
+  padding: .9375rem 0 .9375rem 3.75rem;
+  font-size: 1.5rem;
+}
+
+.search {
+  background-image: url("serach.185fd855.svg");
+}
+
+.menu-section {
+  margin: 0 5rem;
+}
+
+.menu-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5rem;
+}
+
+.menu-title {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.125rem;
+  display: flex;
+}
+
+.search-filter {
+  align-items: center;
+  gap: .9375rem;
+  display: flex;
+}
+
+.filter-btn {
+  background-color: #000;
+  border-radius: 1.25rem;
+  padding: .9375rem;
+}
+
+.categories {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4.375rem 0;
+  display: flex;
+}
+
+.category-btn {
+  color: #ef2a39;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.marked {
+  color: #fff;
+  background-color: #000;
+  width: 5.625rem;
+}
+
+.pagination-dots {
+  justify-content: center;
+  gap: 1.875rem;
+  padding: 6.25rem 0;
+  display: flex;
+}
+
+.pagination-dot {
+  color: #fff;
+  background-color: #000;
+  border-radius: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.activated {
+  color: #000;
+  background-color: #fff;
+}
+
+.menu-item {
+  background-color: #fff;
 }
 /*# sourceMappingURL=index.af20ad6e.css.map */
