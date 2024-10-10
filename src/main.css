@@ -721,7 +721,7 @@ select, input {
         display: none;
     }
 
-    .welcome-section, .popular-dishes-section, .reviews-section {
+    .welcome-section, .popular-dishes-section, .reviews-section, .menu-section, .booking-section, .mobile-nav, .menu-item {
         padding: 1.875rem;
     }
 
@@ -851,7 +851,7 @@ select, input {
         width: 0.625rem;
     }
 
-    .footer-logo {
+    .footer-logo, .menu-section, .booking-section {
         margin: 0;
     }
 
@@ -886,4 +886,114 @@ select, input {
     .footer-bottom .terms {
         margin-bottom: 0; 
     }
+
+    .menu-section h1 {
+        display: none;
+    }
+    
+    .menu-title {
+        padding-top: 0;
+    }
+    
+    .categories {
+        gap: 1.25rem;
+    }
+    
+    .category-btn {
+        width: 6.875rem;
+    }
+    
+    .pagination-dots {
+        display: none;
+    }
+    
+    .booking-section h1 {
+        font-size: 3rem;
+        padding: 0;
+        margin-bottom: 2.5rem;
+    }
+    
+    form {
+        margin: 0;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    .form-item h2 {
+        font-size: 1.5625rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .form-input {
+        background-position: 21.875rem 0.8125rem;
+    }
+    
+    .socials .social-media {
+        display: block;
+    }
+    
+    .socials .social-media a img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+    
+    .mobile-nav {
+        margin-top: 4.375rem;
+        text-align: center;
+    }
+    
+    .nav-wrapper a {
+        display: block;
+        background-color: transparent;
+        border: 0.125rem solid #FFFFFF;
+        border-radius: 0.5rem;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        margin: 1.5625rem 0;
+    }
+    
+    .menu-item {
+        gap: 0;
+    }
+    
+    .back-btn img {
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+    
+    .dish-details {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+        margin-bottom: 0;
+    }
+    
+    .dish-image {
+        width: 18.75rem;
+    }
+    
+    .dish-inform h1 {
+        font-size: 1.4375rem; 
+    }
+    
+    br {
+        display: none;
+    }
+    
+    .dish-meta {
+        font-size: 1.25rem;
+    }
+    
+    .dish-desc {
+        margin: 2.5rem 0;
+        font-size: 0.9375rem;
+        line-height: 1.5;
+    }
+    
+    .book-btn, .price-btn {
+        font-size: 1.25rem;
+    }     
 }

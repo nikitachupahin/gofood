@@ -713,7 +713,7 @@ select, input {
     display: none;
   }
 
-  .welcome-section, .popular-dishes-section, .reviews-section {
+  .welcome-section, .popular-dishes-section, .reviews-section, .menu-section, .booking-section, .mobile-nav, .menu-item {
     padding: 1.875rem;
   }
 
@@ -839,7 +839,7 @@ select, input {
     height: .625rem;
   }
 
-  .footer-logo {
+  .footer-logo, .menu-section, .booking-section {
     margin: 0;
   }
 
@@ -872,6 +872,116 @@ select, input {
 
   .footer-bottom .terms {
     margin-bottom: 0;
+  }
+
+  .menu-section h1 {
+    display: none;
+  }
+
+  .menu-title {
+    padding-top: 0;
+  }
+
+  .categories {
+    gap: 1.25rem;
+  }
+
+  .category-btn {
+    width: 6.875rem;
+  }
+
+  .pagination-dots {
+    display: none;
+  }
+
+  .booking-section h1 {
+    margin-bottom: 2.5rem;
+    padding: 0;
+    font-size: 3rem;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 0;
+  }
+
+  .form-item h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.5625rem;
+  }
+
+  .form-input {
+    background-position: 21.875rem .8125rem;
+  }
+
+  .socials .social-media {
+    display: block;
+  }
+
+  .socials .social-media a img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .mobile-nav {
+    text-align: center;
+    margin-top: 4.375rem;
+  }
+
+  .nav-wrapper a {
+    color: #fff;
+    background-color: #0000;
+    border: .125rem solid #fff;
+    border-radius: .5rem;
+    margin: 1.5625rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+  }
+
+  .menu-item {
+    gap: 0;
+  }
+
+  .back-btn img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .dish-details {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .dish-image {
+    width: 18.75rem;
+  }
+
+  .dish-inform h1 {
+    font-size: 1.4375rem;
+  }
+
+  br {
+    display: none;
+  }
+
+  .dish-meta {
+    font-size: 1.25rem;
+  }
+
+  .dish-desc {
+    margin: 2.5rem 0;
+    font-size: .9375rem;
+    line-height: 1.5;
+  }
+
+  .book-btn, .price-btn {
+    font-size: 1.25rem;
   }
 }
 /*# sourceMappingURL=index.af20ad6e.css.map */
