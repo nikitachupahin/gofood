@@ -12,5 +12,3 @@
 > menu item page - menu-item.html
 
 > page with a display of the mobile burger menu item - burger-page.html
-
-> page of menu categories for the mobile version - menu-mobile.html
