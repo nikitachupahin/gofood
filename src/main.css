@@ -682,3 +682,208 @@ select, input {
     font-size: 2rem; 
     font-weight: bold;
 }
+
+.burger-menu {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger-line {
+    width: 1.875rem;
+    height: 0.3125rem;
+    background-color: #000000;
+    border-radius: 1.25rem;
+    margin: 0.3125rem 0;
+}
+
+@media (max-width: 440px) {
+    header {
+        background-color: #EF2A39;
+        color: #FFF;
+        padding: 1.25rem 1.875rem;
+    }
+
+    nav {
+        display: none; 
+    }
+
+    .welcome-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .welcome-section, .popular-dishes-section, .reviews-section {
+        padding: 1.875rem;
+    }
+
+    .welcome-text h1 {
+        color: #000000;
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .welcome-text p {
+        font-size: 1rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .welcome-buttons {
+        margin: 0 auto 2.5rem;
+    }
+
+    .burger-image {
+        display: none;
+    }
+
+    .about-title, .footer-logo {
+        font-size: 5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .about-description {
+        font-size: 1.5625rem;
+        line-height: 1.5;
+        margin: 0 1.25rem;
+    }
+
+    .btn {
+        font-size: 1.5625rem;
+        padding: 0.9375rem;
+    }
+
+    section h2 {
+        font-size: 3rem;
+        margin-bottom: 4.375rem;
+    }
+
+    .popular-dishes-section p, .reviews-section p {
+        display: none;
+    }
+
+    .dishes-grid p, .reviews-item p {
+        display: block;
+    }
+
+    .dishes-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.9375rem;
+    }
+    
+    .dish-item {
+        padding: 0.625rem;
+    }
+
+    .dish-item h3 {
+        margin: 0.3125rem 0;
+        font-size: 0.875rem;
+    }
+    
+    .dish-item img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    
+    .dish-item p {
+        margin-bottom: 0.3125rem;
+        font-size: 0.625rem;
+    }
+
+    .dish-item .hamb {
+        width: 6.25rem;
+        height: 4.375rem;
+        margin-top: 1.875rem;
+    }
+    
+    .dish-item .price {
+        font-size: 0.875rem;
+    }
+    
+    .dish-item .rating {
+        font-size: 0.875rem;
+    }
+
+    .reviews-item {
+        padding: 2.5rem;
+    }
+    
+    .reviews-item .customer-photo {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    
+    .reviews-item h3 {
+        font-size: 1.5rem;
+        margin-top: 0.9375rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .reviews-item p {
+        max-width: 37.5rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        margin-bottom: 1.875rem;
+    }
+    
+    .rating img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    
+    .reviews-navigation {
+        margin-top: 3.125rem;
+    }
+    
+    .dot {
+        height: 0.625rem;
+        width: 0.625rem;
+    }
+
+    .footer-logo {
+        margin: 0;
+    }
+
+    .footer-info {
+        padding: 0 2.5rem;
+        margin: 0;
+    }
+    
+    .footer-info > div {
+        min-width: 6.25rem;
+    }
+    
+    .footer-info h3 {
+        font-size: 1.125rem;
+        margin-bottom: 0.625rem;
+        color: #EF2A39;
+        text-transform: uppercase;
+    }
+    
+    .footer-info p {
+        font-size: 0.625rem;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom {
+        padding-top: 0;
+        font-size: 0.5rem;
+        margin: 0 1.25rem;
+        padding: 1.25rem 0;
+    }
+    
+    .footer-bottom .terms {
+        margin-bottom: 0; 
+    }
+}

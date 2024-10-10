@@ -674,4 +674,204 @@ select, input {
   font-weight: bold;
   text-decoration: none;
 }
+
+.burger-menu {
+  cursor: pointer;
+  flex-direction: column;
+  display: none;
+}
+
+.burger-line {
+  background-color: #000;
+  border-radius: 1.25rem;
+  width: 1.875rem;
+  height: .3125rem;
+  margin: .3125rem 0;
+}
+
+@media (width <= 440px) {
+  header {
+    color: #fff;
+    background-color: #ef2a39;
+    padding: 1.25rem 1.875rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .welcome-section, .popular-dishes-section, .reviews-section {
+    padding: 1.875rem;
+  }
+
+  .welcome-text h1 {
+    color: #000;
+    text-align: center;
+    font-size: 2.25rem;
+  }
+
+  .welcome-text p {
+    margin-bottom: 6.25rem;
+    font-size: 1rem;
+  }
+
+  .welcome-buttons {
+    margin: 0 auto 2.5rem;
+  }
+
+  .burger-image {
+    display: none;
+  }
+
+  .about-title, .footer-logo {
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .about-description {
+    margin: 0 1.25rem;
+    font-size: 1.5625rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    padding: .9375rem;
+    font-size: 1.5625rem;
+  }
+
+  section h2 {
+    margin-bottom: 4.375rem;
+    font-size: 3rem;
+  }
+
+  .popular-dishes-section p, .reviews-section p {
+    display: none;
+  }
+
+  .dishes-grid p, .reviews-item p {
+    display: block;
+  }
+
+  .dishes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: .9375rem;
+    display: grid;
+  }
+
+  .dish-item {
+    padding: .625rem;
+  }
+
+  .dish-item h3 {
+    margin: .3125rem 0;
+    font-size: .875rem;
+  }
+
+  .dish-item img {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+
+  .dish-item p {
+    margin-bottom: .3125rem;
+    font-size: .625rem;
+  }
+
+  .dish-item .hamb {
+    width: 6.25rem;
+    height: 4.375rem;
+    margin-top: 1.875rem;
+  }
+
+  .dish-item .price, .dish-item .rating {
+    font-size: .875rem;
+  }
+
+  .reviews-item {
+    padding: 2.5rem;
+  }
+
+  .reviews-item .customer-photo {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+
+  .reviews-item h3 {
+    margin-top: .9375rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5rem;
+  }
+
+  .reviews-item p {
+    max-width: 37.5rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  .rating img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .reviews-navigation {
+    margin-top: 3.125rem;
+  }
+
+  .dot {
+    width: .625rem;
+    height: .625rem;
+  }
+
+  .footer-logo {
+    margin: 0;
+  }
+
+  .footer-info {
+    margin: 0;
+    padding: 0 2.5rem;
+  }
+
+  .footer-info > div {
+    min-width: 6.25rem;
+  }
+
+  .footer-info h3 {
+    color: #ef2a39;
+    text-transform: uppercase;
+    margin-bottom: .625rem;
+    font-size: 1.125rem;
+  }
+
+  .footer-info p {
+    color: #fff;
+    font-size: .625rem;
+  }
+
+  .footer-bottom {
+    margin: 0 1.25rem;
+    padding: 1.25rem 0;
+    font-size: .5rem;
+  }
+
+  .footer-bottom .terms {
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=index.af20ad6e.css.map */
