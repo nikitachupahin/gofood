@@ -434,6 +434,7 @@ form {
 }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="time"], select, textarea {
+  color: gray;
   border: 1px solid #ccc;
   border-radius: .3125rem;
   width: 95%;
@@ -544,6 +545,7 @@ select, input {
   width: 10rem;
   height: 5rem;
   font-size: 1.5rem;
+  font-weight: bold;
   display: flex;
 }
 
@@ -570,6 +572,7 @@ select, input {
   height: 5rem;
   font-size: 2.25rem;
   font-weight: bold;
+  text-decoration: none;
   display: flex;
 }
 
@@ -580,5 +583,95 @@ select, input {
 
 .menu-item {
   background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.125rem;
+  padding: .625rem 5rem 0;
+  display: flex;
+}
+
+.back-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.dish-details {
+  align-items: flex-start;
+  gap: 3.75rem;
+  width: 100%;
+  margin-bottom: 9.375rem;
+  display: flex;
+}
+
+.dish-image {
+  width: 37.5rem;
+  height: auto;
+}
+
+.dish-inform {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.dish-inform h1 {
+  color: #3c2f2f;
+  text-align: left;
+  margin: 0;
+  padding: 1.875rem 0;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.dish-meta {
+  color: gray;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.dish-meta .rating {
+  color: #ff9633;
+}
+
+.dish-desc {
+  color: gray;
+  text-align: justify;
+  margin: 2.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.price-book {
+  align-items: center;
+  gap: 2.5rem;
+  height: 5rem;
+  display: flex;
+}
+
+.price-btn {
+  color: #fff;
+  background-color: #ef2a39;
+  border-radius: 3.125rem;
+  flex: 1;
+  padding: 1.25rem 1.875rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.book-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  border-radius: 1.875rem;
+  flex: 2;
+  padding: 1.25rem 1.875rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 /*# sourceMappingURL=index.af20ad6e.css.map */
