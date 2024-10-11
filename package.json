@@ -9,6 +9,7 @@
   "author": "Mykyta Chupahin",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
   }
 }
