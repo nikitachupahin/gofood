@@ -1,0 +1,1027 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
+body {
+  color: #ef2a39;
+  text-align: center;
+  background-color: #ef2a39;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+  display: flex;
+}
+
+.logo {
+  font-family: Lobster, sans-serif;
+  font-size: 3rem;
+}
+
+.logo span {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  display: block;
+}
+
+nav {
+  gap: 3rem;
+  display: flex;
+}
+
+nav a {
+  color: #ef2a39;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-media {
+  gap: .625rem;
+  display: flex;
+}
+
+.social-media img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.welcome-section {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 5rem 10% 5rem 5%;
+  display: flex;
+}
+
+.welcome-text {
+  text-align: left;
+  max-width: 50%;
+}
+
+.welcome-text h1 {
+  margin: 5rem 0 2.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.welcome-text p {
+  color: #3c2f2f;
+  margin-bottom: 9.375rem;
+  font-size: 1.25rem;
+}
+
+.welcome-buttons {
+  flex-direction: column;
+  max-width: 15rem;
+  display: flex;
+}
+
+.welcome-buttons a {
+  text-align: center;
+  border-radius: 1.5625rem;
+  padding: 1.125rem 1.875rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ef2a39;
+  margin-bottom: 1.875rem;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #000;
+}
+
+.burger-image {
+  max-width: 40%;
+}
+
+.burger-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-section {
+  text-align: center;
+  color: #fff;
+  background: url("about-background.62c8dd0f.png") center / cover no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.about-content {
+  background: #00000080;
+  width: 100%;
+  height: 100%;
+}
+
+.about-title {
+  margin-top: 3.125rem;
+  margin-bottom: 8.125rem;
+  font-family: Lobster, sans-serif;
+  font-size: 8rem;
+}
+
+.subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  display: block;
+}
+
+.about-description {
+  text-align: justify;
+  margin: 1.25rem 17rem;
+  font-size: 3.125rem;
+  font-weight: 400;
+}
+
+.highlight {
+  color: #ef2a39;
+  font-family: Lobster, sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  color: #fff;
+  background-color: #ef2a39;
+  border-radius: 3.125rem;
+  margin: 8.25rem 0;
+  padding: 1.875rem 2.1875rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: inline-block;
+}
+
+.popular-dishes-section, .reviews-section {
+  color: #fff;
+  text-align: center;
+  background-color: #ef2a39;
+  padding: 8.125rem 5rem 13.75rem;
+}
+
+.reviews-section p {
+  margin-bottom: 3.125rem;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  font-size: 5rem;
+}
+
+section p {
+  margin-top: 0;
+  margin-bottom: 8.125rem;
+  font-size: 1.5rem;
+}
+
+.dishes-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  display: grid;
+}
+
+.dish-item {
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+  border-radius: .9375rem;
+  padding: 1.25rem;
+}
+
+.dish-item h3 {
+  text-align: left;
+  margin: .625rem 0;
+  font-size: 1.75rem;
+}
+
+.dish-item h3 a {
+  color: #3c2f2f;
+  text-decoration: none;
+}
+
+.dish-item img {
+  width: 11.8125rem;
+  height: 12.5rem;
+}
+
+.dish-item p {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 3.125rem;
+  font-size: 1rem;
+}
+
+.dish-item .hamb {
+  width: 13.5rem;
+  height: 10rem;
+  margin-top: 2.5rem;
+}
+
+.dish-item .price {
+  color: #ef2a39;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.dish-item .rating {
+  color: #ff9633;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.dish-info {
+  justify-content: space-between;
+  display: flex;
+}
+
+.reviews-item {
+  color: #333;
+  background-color: #fff;
+  border-radius: 1.5625rem;
+  padding: 2.5rem;
+  display: inline-block;
+}
+
+.reviews-item .customer-photo {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.reviews-item h3 {
+  margin-top: 1.875rem;
+  margin-bottom: 3.75rem;
+  font-size: 2.5rem;
+}
+
+.reviews-item p {
+  max-width: 37.5rem;
+  margin-bottom: 3.75rem;
+  font-size: 1.875rem;
+}
+
+.rating {
+  justify-content: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.rating img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.reviews-navigation {
+  justify-content: center;
+  gap: 3.75rem;
+  margin-top: 5.625rem;
+  display: flex;
+}
+
+.dot {
+  background-color: #333;
+  border-radius: 50%;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  display: inline-block;
+}
+
+.active {
+  background-color: #fff;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  background: url("footer-background.b743dc29.png") center / cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.footer-content {
+  background: #000000bf;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-title {
+  background-color: #ef2a39;
+}
+
+.footer-logo {
+  padding-top: 3.125rem;
+  padding-bottom: 2.5rem;
+  font-family: Lobster, sans-serif;
+  font-size: 8rem;
+}
+
+.footer-info {
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  padding: 0 5rem;
+  display: flex;
+}
+
+.footer-info > div {
+  flex: 1;
+  min-width: 9.375rem;
+  margin: .625rem 1.25rem;
+}
+
+.footer-info h3 {
+  color: #ef2a39;
+  text-transform: uppercase;
+  margin-bottom: .625rem;
+  font-size: 1.5rem;
+}
+
+.footer-info p {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  color: #fff;
+  border-top: 1px solid #ef2a39;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5rem;
+  padding-top: 2.1875rem;
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.footer-bottom .terms {
+  align-items: center;
+  gap: 1.875rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+}
+
+.terms a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.booking-section {
+  margin: 0 5rem;
+}
+
+.booking-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
+  font-size: 5rem;
+}
+
+.gofood-header, .gofood-header a {
+  color: #fff;
+  background-color: #ef2a39;
+}
+
+form {
+  color: #fff;
+  justify-content: space-between;
+  gap: 8.75rem;
+  margin: 0 10rem;
+  padding: 0;
+  display: flex;
+}
+
+.form-column {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.form-item {
+  max-width: 25rem;
+}
+
+.form-item h2 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: .9375rem;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="time"] {
+  color: gray;
+  border: 1px solid #ccc;
+  border-radius: .3125rem;
+  width: 95%;
+  padding: .796875rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+}
+
+select {
+  color: gray;
+  appearance: none;
+  border: 1px solid #ccc;
+  border-radius: .3125rem;
+  width: 95%;
+  padding: .796875rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+}
+
+textarea {
+  color: gray;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: .3125rem;
+  width: 95%;
+  height: 9.375rem;
+  padding: .796875rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+}
+
+.form-select {
+  text-align: left;
+}
+
+.form-select select {
+  width: 102%;
+}
+
+.form-input {
+  background-position: 23.125rem .625rem;
+  background-repeat: no-repeat;
+  padding-left: .9375rem;
+}
+
+input {
+  appearance: none;
+}
+
+.location {
+  background-image: url("location.992108c7.svg");
+}
+
+.persons {
+  background-image: url("person.7a9f5cb0.svg");
+}
+
+.btn-reserve {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 1.25rem;
+  margin-top: auto;
+  padding: 1.25rem 3.75rem;
+  font-size: 1.25rem;
+}
+
+.search-filter {
+  align-items: center;
+  gap: .9375rem;
+  display: flex;
+}
+
+.search-filter .filter-input {
+  background-position: 1.25rem 1.25rem;
+  background-repeat: no-repeat;
+  border-radius: 1.25rem;
+  padding: .9375rem 0 .9375rem 3.75rem;
+  font-size: 1.5rem;
+}
+
+.search {
+  background-image: url("serach.185fd855.svg");
+}
+
+.menu-section {
+  margin: 0 5rem;
+}
+
+.menu-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5rem;
+}
+
+.menu-title {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.125rem;
+  display: flex;
+}
+
+.filter-btn {
+  background-color: #000;
+  border-radius: 1.25rem;
+  padding: .9375rem;
+}
+
+.categories {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4.375rem 0;
+  display: flex;
+}
+
+.category-btn {
+  color: #ef2a39;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.marked {
+  color: #fff;
+  background-color: #000;
+  width: 5.625rem;
+}
+
+.pagination-dots {
+  justify-content: center;
+  gap: 1.875rem;
+  padding: 6.25rem 0;
+  display: flex;
+}
+
+.pagination-dot {
+  color: #fff;
+  background-color: #000;
+  border-radius: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+.activated {
+  color: #000;
+  background-color: #fff;
+}
+
+.menu-item {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.125rem;
+  padding: .625rem 5rem 0;
+  display: flex;
+}
+
+.back-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.dish-details {
+  align-items: flex-start;
+  gap: 3.75rem;
+  width: 100%;
+  margin-bottom: 9.375rem;
+  display: flex;
+}
+
+.dish-image {
+  width: 37.5rem;
+  height: auto;
+}
+
+.dish-inform {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.dish-inform h1 {
+  color: #3c2f2f;
+  text-align: left;
+  margin: 0;
+  padding: 1.875rem 0;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.dish-meta {
+  color: gray;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.dish-meta .rating {
+  color: #ff9633;
+}
+
+.dish-desc {
+  color: gray;
+  text-align: justify;
+  margin: 2.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.price-book {
+  align-items: center;
+  gap: 2.5rem;
+  height: 5rem;
+  display: flex;
+}
+
+.price-btn {
+  color: #fff;
+  background-color: #ef2a39;
+  border-radius: 3.125rem;
+  flex: 1;
+  padding: 1.25rem 1.875rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.book-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  border-radius: 1.875rem;
+  flex: 2;
+  padding: 1.25rem 1.875rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.burger-menu {
+  cursor: pointer;
+  flex-direction: column;
+  display: none;
+}
+
+.burger-line {
+  background-color: #000;
+  border-radius: 1.25rem;
+  width: 1.875rem;
+  height: .3125rem;
+  margin: .3125rem 0;
+}
+
+@media (width <= 440px) {
+  header {
+    color: #fff;
+    background-color: #ef2a39;
+    padding: 1.25rem 1.875rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .welcome-text h1 {
+    color: #000;
+    text-align: center;
+    font-size: 2.25rem;
+  }
+
+  .welcome-text p {
+    margin-bottom: 6.25rem;
+    font-size: 1rem;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .welcome-section, .popular-dishes-section {
+    padding: 1.875rem;
+  }
+
+  .popular-dishes-section p {
+    display: none;
+  }
+
+  .reviews-section {
+    padding: 1.875rem;
+  }
+
+  .reviews-section p {
+    display: none;
+  }
+
+  .menu-section {
+    margin: 0;
+    padding: 1.875rem;
+  }
+
+  .menu-section h1 {
+    display: none;
+  }
+
+  .booking-section {
+    margin: 0;
+    padding: 1.875rem;
+  }
+
+  .booking-section h1 {
+    margin-bottom: 2.5rem;
+    padding: 0;
+    font-size: 3rem;
+  }
+
+  .mobile-nav {
+    text-align: center;
+    margin-top: 4.375rem;
+    padding: 1.875rem;
+  }
+
+  .menu-item {
+    gap: 0;
+    padding: 1.875rem;
+  }
+
+  .welcome-buttons {
+    margin: 0 auto 2.5rem;
+  }
+
+  .burger-image {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 5rem;
+  }
+
+  .footer-logo {
+    margin: 0;
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .about-description {
+    margin: 0 1.25rem;
+    font-size: 1.5625rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    padding: .9375rem;
+    font-size: 1.5625rem;
+  }
+
+  section h2 {
+    margin-bottom: 4.375rem;
+    font-size: 3rem;
+  }
+
+  .dishes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: .9375rem;
+    display: grid;
+  }
+
+  .dishes-grid p {
+    display: block;
+  }
+
+  .reviews-item {
+    padding: 2.5rem;
+  }
+
+  .reviews-item p {
+    max-width: 37.5rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    display: block;
+  }
+
+  .reviews-item .customer-photo {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+
+  .reviews-item h3 {
+    margin-top: .9375rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5rem;
+  }
+
+  .dish-item {
+    padding: .625rem;
+  }
+
+  .dish-item h3 {
+    margin: .3125rem 0;
+    font-size: .875rem;
+  }
+
+  .dish-item img {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+
+  .dish-item p {
+    margin-bottom: .3125rem;
+    font-size: .625rem;
+  }
+
+  .dish-item .hamb {
+    width: 6.25rem;
+    height: 4.375rem;
+    margin-top: 1.875rem;
+  }
+
+  .dish-item .price, .dish-item .rating {
+    font-size: .875rem;
+  }
+
+  .rating img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .reviews-navigation {
+    margin-top: 3.125rem;
+  }
+
+  .dot {
+    width: .625rem;
+    height: .625rem;
+  }
+
+  .footer-info {
+    margin: 0;
+    padding: 0 2.5rem;
+  }
+
+  .footer-info > div {
+    min-width: 6.25rem;
+  }
+
+  .footer-info h3 {
+    color: #ef2a39;
+    text-transform: uppercase;
+    margin-bottom: .625rem;
+    font-size: 1.125rem;
+  }
+
+  .footer-info p {
+    color: #fff;
+    font-size: .625rem;
+  }
+
+  .footer-bottom {
+    margin: 0 1.25rem;
+    padding: 1.25rem 0;
+    font-size: .5rem;
+  }
+
+  .footer-bottom .terms {
+    margin-bottom: 0;
+  }
+
+  .menu-title {
+    padding-top: 0;
+  }
+
+  .categories {
+    gap: 1.25rem;
+  }
+
+  .category-btn {
+    width: 6.875rem;
+  }
+
+  .pagination-dots {
+    display: none;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 0;
+  }
+
+  .form-item h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.5625rem;
+  }
+
+  .form-input {
+    background-position: 21.875rem .8125rem;
+  }
+
+  .socials .social-media {
+    display: block;
+  }
+
+  .socials .social-media a img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .nav-wrapper a {
+    color: #fff;
+    background-color: #0000;
+    border: .125rem solid #fff;
+    border-radius: .5rem;
+    margin: 1.5625rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+  }
+
+  .back-btn img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .dish-details {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .dish-image {
+    width: 18.75rem;
+  }
+
+  .dish-inform h1 {
+    font-size: 1.4375rem;
+  }
+
+  br {
+    display: none;
+  }
+
+  .dish-meta {
+    font-size: 1.25rem;
+  }
+
+  .dish-desc {
+    margin: 2.5rem 0;
+    font-size: .9375rem;
+    line-height: 1.5;
+  }
+
+  .book-btn, .price-btn {
+    font-size: 1.25rem;
+  }
+}
+/*# sourceMappingURL=index.b10d73a7.css.map */
