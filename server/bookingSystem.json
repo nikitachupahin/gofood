@@ -1,0 +1,28 @@
+{
+  "reservations": [
+    {
+      "id": "f5af",
+      "name": "HHJGHGJH",
+      "phone": "+3434",
+      "email": "sdfsdf@sdfsd.com",
+      "notes": "nothing",
+      "location": "suburbs",
+      "date": "2024-11-12",
+      "timeStart": "10:00",
+      "timeEnd": "12:00",
+      "persons": 5
+    },
+    {
+      "id": "c886",
+      "name": "Mykyta Chupakhin",
+      "phone": "+3890995885",
+      "email": "nik@gmail.com",
+      "notes": "Typing",
+      "location": "uptown",
+      "date": "2024-11-12",
+      "timeStart": "13:00",
+      "timeEnd": "14:00",
+      "persons": 6
+    }
+  ]
+}

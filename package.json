@@ -4,7 +4,8 @@
   "description": "Gofood restaurant website using HTML, CSS, JS",
   "main": "app.js",
   "scripts": {
-    "server": "json-server server/reviews.json",
+    "reviews": "json-server server/reviews.json",
+    "booking": "json-server server/bookingSystem.json -p 4000",
     "parcel": "parcel src/index.html"
   },
   "author": "Mykyta Chupahin",

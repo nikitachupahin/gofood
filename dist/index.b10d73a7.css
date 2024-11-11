@@ -499,6 +499,14 @@ input {
   background-image: url("person.7a9f5cb0.svg");
 }
 
+.time_start {
+  background-image: url("time-start.2284d256.svg");
+}
+
+.time_end {
+  background-image: url("time-end.2d38dc01.svg");
+}
+
 .btn-reserve {
   color: #fff;
   cursor: pointer;

@@ -1,9 +1,10 @@
-export async function loadAndDisplayReviews() {
+async function loadAndDisplayReviews() {
     const reviewsList = document.querySelector(".reviews-list");
     const reviewsNavigation = document.querySelector(".reviews-navigation");
 
     try {
         const reviews = await fetchReviews();
+        console.log("Reviews:", reviews);
         renderReviews(reviews, reviewsList);
         renderNavigation(reviews, reviewsNavigation);
 
@@ -84,3 +85,5 @@ function setActiveDot(index) {
         dots[index].classList.add("active");
     }
 }
+
+document.addEventListener("DOMContentLoaded", loadAndDisplayReviews);

@@ -590,14 +590,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
 });
 
 },{"./reviews":"fYIS4"}],"fYIS4":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "loadAndDisplayReviews", ()=>loadAndDisplayReviews);
 async function loadAndDisplayReviews() {
     const reviewsList = document.querySelector(".reviews-list");
     const reviewsNavigation = document.querySelector(".reviews-navigation");
     try {
         const reviews = await fetchReviews();
+        console.log("Reviews:", reviews);
         renderReviews(reviews, reviewsList);
         renderNavigation(reviews, reviewsNavigation);
         let currentIndex = 0;
@@ -663,36 +661,7 @@ function setActiveDot(index) {
     const dots = document.querySelectorAll(".dot");
     if (dots[index]) dots[index].classList.add("active");
 }
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+document.addEventListener("DOMContentLoaded", loadAndDisplayReviews);
 
 },{}]},["aP7aF","8lRBv"], "8lRBv", "parcelRequireb934")
 
