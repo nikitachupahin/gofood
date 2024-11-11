@@ -1,0 +1,39 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "user": "John Smith",
+      "rating": 5,
+      "text": "Absolutely delicious! The food was flavorful and fresh, and the presentation was fantastic. I would highly recommend this place to anyone looking for an unforgettable dining experience. Everything was perfect!",
+      "url": "https://img.freepik.com/free-photo/friendly-handsome-man-sit-floor-with-laptop-smiling_176420-21116.jpg"
+    },
+    {
+      "id": 2,
+      "user": "Sarah Williams",
+      "rating": 4,
+      "text": "Great service and atmosphere. The staff was very attentive and friendly, and the environment was cozy yet stylish. The menu offers a nice variety of dishes, and each one we tried was well-prepared. We’ll definitely be back soon!",
+      "url": "https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg"
+    },
+    {
+      "id": 3,
+      "user": "Michael Brown",
+      "rating": 3,
+      "text": "Food was decent but a bit slow. The flavors were good, but we had to wait quite a while for our food to arrive. Overall, a nice place, but I’d suggest visiting when you’re not in a rush. Service was friendly, though.",
+      "url": "https://img.freepik.com/free-photo/expressive-redhead-bearded-man_176420-32277.jpg"
+    },
+    {
+      "id": 4,
+      "user": "Emily Johnson",
+      "rating": 4,
+      "text": "Nice place to enjoy a meal with friends! We had a wonderful time, and the food was just what we were looking for. The menu has a great selection, and the ambiance is relaxed and inviting. Highly recommend for group gatherings!",
+      "url": "https://img.freepik.com/free-photo/beautiful-young-woman-whip-hair-smiling-haircare-concept_176420-20866.jpg"
+    },
+    {
+      "id": 5,
+      "user": "David Wilson",
+      "rating": 5,
+      "text": "Exceptional experience! Will come back again. From the food to the service, everything was outstanding. This is one of the best dining experiences I’ve had in a long time. Perfect for special occasions or just treating yourself.",
+      "url": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+    }
+  ]
+}

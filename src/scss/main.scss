@@ -240,8 +240,12 @@ section {
 	background-color: $background-color_2;
 	padding: 2.5rem;
 	border-radius: 1.5625rem;
-	display: inline-block;
 	color: $color_5;
+	display: none;
+
+	&.active {
+		display: inline-block;
+	}
 	.customer-photo {
 		border-radius: 50%;
 		width: 9.375rem;
@@ -256,7 +260,9 @@ section {
 	p {
 		max-width: 37.5rem;
 		font-size: 1.875rem;
-		margin-bottom: 3.75rem;
+		margin: 0 auto 3.75rem;
+		text-align: justify;
+		line-height: 1.5;	
 	}
 }
 .rating {
@@ -280,6 +286,7 @@ section {
 	background-color: $background-color_4;
 	border-radius: 50%;
 	display: inline-block;
+	transition: background-color 0.3s ease;
 }
 .active {
 	background-color: $background-color_2;

@@ -4,12 +4,16 @@
   "description": "Gofood restaurant website using HTML, CSS, JS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server server/reviews.json",
+    "parcel": "parcel src/index.html"
   },
   "author": "Mykyta Chupahin",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
